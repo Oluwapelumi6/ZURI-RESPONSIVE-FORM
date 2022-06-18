@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registeration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="first">
+                <h1>Learn to code by <br> watching others</h1>
+                <p>See how experienced developers solve problems in real-time.
+                Watching scripted tutorials is great, 
+                    but understanding how developers think is invaluable. </p> 
+            </div>
+            <div class="second">
+                <div class="top">
+                    <p><span>Try it free 7 days</span> then $20/mo. thereafter</p>
+                </div>
+                
+                <div class="form">
+                    <form action="#">
+                        <div class="form-field">
+                            <label for="firstname">First Name</label>
+                            <input type="text" class="text-input"  placeholder="First Name" >
+                            <img src="/images/icon-error.svg" class="error-icon" alt="error-image">
+                            <p class="error-text">First Name cannot be empty</p>
+                        </div>
+                        <div class="form-field">
+                            <label for="lastname"> Last Name</label>
+                            <input class="text-input" type="text"  placeholder="Last Name" >
+                            <img src="/images/icon-error.svg" class="error-icon" alt="error-image">
+                            <p class="error-text">Last Name cannot be empty</p>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input type="email" name="email" class="text-input" placeholder="Email Address" >
+                            <img src="/images/icon-error.svg" class="error-icon" alt="error-image">
+                            <p class="error-text">Looks like this is not an email</p>
+                        </div>
+                        <div class="form-field">
+                            <label for="Password">Password</label>
+                            <input class="text-input" type="password" name="password" placeholder="Password">
+                            <img src="/images/icon-error.svg" class="error-icon" alt="error-image">
+                            <p class="error-text">password cannot be empty</p>
+                        </div>
+                        <button class="button" type="submit">CLAIM YOUR FREE TRIAL</button>
+                        <p class="click">By clicking the button you are agreeing to our <span class="span">Terms and Services</span></p>
+                     
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main> 
+    <script src="main.js"></script>
+</body>
+</html
